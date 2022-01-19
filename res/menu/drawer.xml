@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/start_mapping"
+            android:icon="@drawable/ic_route_timeline_24"
+            android:title="Route Mapping" />
+        <item
+            android:id="@+id/new_asset"
+            android:icon="@drawable/ic_joint_add_location_24"
+            android:title="Add New Joint" />
+        <item
+            android:id="@+id/asset_list"
+            android:icon="@drawable/ic_baseline_save_24"
+            android:title="Asset list" />
+
+    </group>
+    <group></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/thermal_stream"
+            android:icon="@drawable/ic_baseline_cameraswitch_24"
+            android:title="Camera stream " />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Show Route"/>
+    </group>
+</menu>
